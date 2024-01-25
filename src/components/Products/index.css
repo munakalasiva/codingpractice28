@@ -1,0 +1,9 @@
+.products-img {
+  height: 250px;
+  width: 250px;
+}
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

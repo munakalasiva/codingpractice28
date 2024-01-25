@@ -1,0 +1,9 @@
+.cart-img {
+  height: 250px;
+  width: 250px;
+}
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
