@@ -91,6 +91,10 @@ class LoginForm extends Component {
 
   render() {
     const {showSubmitError, errorMsg} = this.state
+    const token=Cookies.get("jwt_token")
+    if(token!==undefined){
+      return <Redirect to="/"/>
+    }
     return (
       <div className="login-form-container">
         <img
